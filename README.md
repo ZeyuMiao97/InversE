@@ -10,3 +10,9 @@ This software can be used to reproduce the results in our "InversE: Improving Bi
 To run InversE on a dataset `D`, do the following steps:
 * `cd` to the directory where `main.py` is  
 * Run `python learn.py --dataset D --model InversE --rank 4000 --optimizer Adagrad --learning_rate 1e-2 --batch_size 100 --regularizer N3 --reg 1e-2 --max_epochs 200 --valid 5`  
+# Datasets
+The following datasets are available in this software：
+* `FB15k`
+* `FB15k237`
+* `WN18` 
+* `WN18RR`
